@@ -51,8 +51,10 @@
 		B92EB0552A2D5AD60070D017 /* GuitarTuner */ = {
 			isa = PBXGroup;
 			children = (
+				B92EB0642A2D5C550070D017 /* Views */,
+				B92EB0652A2D5C970070D017 /* Utilities */,
+				B92EB0662A2D5CA40070D017 /* Models */,
 				B92EB0562A2D5AD60070D017 /* GuitarTunerApp.swift */,
-				B92EB0582A2D5AD60070D017 /* ContentView.swift */,
 				B92EB05A2A2D5AD70070D017 /* Assets.xcassets */,
 				B92EB05C2A2D5AD70070D017 /* Preview Content */,
 			);
@@ -65,6 +67,28 @@
 				B92EB05D2A2D5AD70070D017 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B92EB0642A2D5C550070D017 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B92EB0582A2D5AD60070D017 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B92EB0652A2D5C970070D017 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B92EB0662A2D5CA40070D017 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
