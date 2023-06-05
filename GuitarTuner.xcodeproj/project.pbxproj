@@ -11,6 +11,7 @@
 		B92EB0592A2D5AD60070D017 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92EB0582A2D5AD60070D017 /* ContentView.swift */; };
 		B92EB05B2A2D5AD70070D017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92EB05A2A2D5AD70070D017 /* Assets.xcassets */; };
 		B92EB05E2A2D5AD70070D017 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92EB05D2A2D5AD70070D017 /* Preview Assets.xcassets */; };
+		B92EB0682A2D67C70070D017 /* TunerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92EB0672A2D67C70070D017 /* TunerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B92EB0582A2D5AD60070D017 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B92EB05A2A2D5AD70070D017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B92EB05D2A2D5AD70070D017 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B92EB0672A2D67C70070D017 /* TunerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				B92EB0652A2D5C970070D017 /* Utilities */,
 				B92EB0662A2D5CA40070D017 /* Models */,
 				B92EB0562A2D5AD60070D017 /* GuitarTunerApp.swift */,
+				B92EB0582A2D5AD60070D017 /* ContentView.swift */,
 				B92EB05A2A2D5AD70070D017 /* Assets.xcassets */,
 				B92EB05C2A2D5AD70070D017 /* Preview Content */,
 			);
@@ -72,7 +75,7 @@
 		B92EB0642A2D5C550070D017 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B92EB0582A2D5AD60070D017 /* ContentView.swift */,
+				B92EB0672A2D67C70070D017 /* TunerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B92EB0682A2D67C70070D017 /* TunerView.swift in Sources */,
 				B92EB0592A2D5AD60070D017 /* ContentView.swift in Sources */,
 				B92EB0572A2D5AD60070D017 /* GuitarTunerApp.swift in Sources */,
 			);
