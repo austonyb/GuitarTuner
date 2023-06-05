@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B92C0DC12A2D925400FC5560 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = B92C0DC02A2D925400FC5560 /* AudioKit */; };
 		B92EB0572A2D5AD60070D017 /* GuitarTunerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92EB0562A2D5AD60070D017 /* GuitarTunerApp.swift */; };
 		B92EB0592A2D5AD60070D017 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92EB0582A2D5AD60070D017 /* ContentView.swift */; };
 		B92EB05B2A2D5AD70070D017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92EB05A2A2D5AD70070D017 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B92C0DC12A2D925400FC5560 /* AudioKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +112,9 @@
 			dependencies = (
 			);
 			name = GuitarTuner;
+			packageProductDependencies = (
+				B92C0DC02A2D925400FC5560 /* AudioKit */,
+			);
 			productName = GuitarTuner;
 			productReference = B92EB0532A2D5AD60070D017 /* GuitarTuner.app */;
 			productType = "com.apple.product-type.application";
@@ -138,6 +143,9 @@
 				Base,
 			);
 			mainGroup = B92EB04A2A2D5AD60070D017;
+			packageReferences = (
+				B92C0DBF2A2D925400FC5560 /* XCRemoteSwiftPackageReference "AudioKit" */,
+			);
 			productRefGroup = B92EB0542A2D5AD60070D017 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -367,6 +375,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B92C0DBF2A2D925400FC5560 /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B92C0DC02A2D925400FC5560 /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B92C0DBF2A2D925400FC5560 /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B92EB04B2A2D5AD60070D017 /* Project object */;
 }
